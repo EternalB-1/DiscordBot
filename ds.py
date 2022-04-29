@@ -170,4 +170,4 @@ async def inf(ctx):
     embed.add_field(name="Количество пользователей в БД: ", value="add", inline=False)
     await ctx.send(embed=embed)
 
-client.run("") #Токен бота
+client.run("TOKEN") #Токен бота
