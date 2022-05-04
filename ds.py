@@ -10,8 +10,8 @@ intents.members = True #Настраиваем чтение участников
 
 client=commands.Bot(intents=intents, command_prefix = '$') #Выдаем префикс боту
 today = str(ctime()) #Переменная с актуальной датой
-link1="https://wdho.ru/e131fa" #Ссылка на чит
-link2="https://dropmefiles.com/lZpbU"
+link1="https://" #Ссылка на чит
+link2="https://"
 password="смотрите в инструкции" #Пароль от архива с читом
 ukey = '' #Индивидуальный ключ активации чита
 client.remove_command('help') #удаляем стандартную команду help
